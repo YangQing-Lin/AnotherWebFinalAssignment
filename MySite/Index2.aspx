@@ -19,10 +19,10 @@
                         <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
                         <Columns>
                             <asp:BoundField DataField="Id" HeaderText="编码" ReadOnly="True" />
-                            <asp:BoundField DataField="Name" HeaderText="电梯" ReadOnly="True"/>
-                            <asp:BoundField DataField="kcms" HeaderText="检修内容"/>
-                            <asp:BoundField DataField="xkrq" HeaderText="检修日期" />
-                            <asp:BoundField DataField="xkxs" HeaderText="检修人" />
+                            <asp:BoundField DataField="Name" HeaderText="课程名称" ReadOnly="True"/>
+                            <asp:BoundField DataField="kcms" HeaderText="课程描述"/>
+                            <asp:BoundField DataField="xkrq" HeaderText="选课日期" />
+                            <asp:BoundField DataField="xkxs" HeaderText="选课学生" />
                             <asp:CommandField HeaderText="编辑" ShowEditButton="True" />
                             <asp:CommandField HeaderText="删除" ShowDeleteButton="True" />
                         </Columns>
