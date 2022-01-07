@@ -41,7 +41,7 @@ namespace MySite
         {
             if (string.IsNullOrEmpty(txtId.Text))
             {
-                int rs= help.AddSafe(txtName.Text, txtJxnr.Text, DateTime.Parse(txtJxrq.Text), txtJxr.Text);
+                int rs= help.AddSafe(txtName.Text, txtKcms.Text, DateTime.Parse(txtXkrq.Text), txtXkxs.Text);
                 if (rs > 0)
                 {
                     Response.Redirect("Index2.aspx");
@@ -53,7 +53,7 @@ namespace MySite
             }
             else
             {
-                int result= help.UpdateSafe(int.Parse(txtId.Text), txtName.Text, txtJxnr.Text, DateTime.Parse(txtJxrq.Text), txtJxr.Text);
+                int result= help.UpdateSafe(int.Parse(txtId.Text), txtName.Text, txtKcms.Text, DateTime.Parse(txtXkrq.Text), txtXkxs.Text);
                 if (result > 0)
                 {
                     Response.Redirect("Index2.aspx");

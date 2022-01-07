@@ -7,11 +7,13 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace MySite {
-    
-    
-    public partial class index2 {
-        
+namespace MySite
+{
+
+
+    public partial class index2
+    {
+
         /// <summary>
         /// txtName 控件。
         /// </summary>
@@ -20,16 +22,16 @@ namespace MySite {
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtName;
-        
+
         /// <summary>
-        /// txtJxrq 控件。
+        /// txtXkrq 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtJxrq;
-        
+        protected global::System.Web.UI.WebControls.TextBox txtXkrq;
+
         /// <summary>
         /// btnQuery 控件。
         /// </summary>
@@ -38,7 +40,7 @@ namespace MySite {
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnQuery;
-        
+
         /// <summary>
         /// GridView1 控件。
         /// </summary>

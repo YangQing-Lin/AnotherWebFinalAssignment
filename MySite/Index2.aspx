@@ -9,7 +9,7 @@
         <asp:Label runat="server" Text="名称："></asp:Label>
         <asp:TextBox runat="server" ID="txtName" ></asp:TextBox> &nbsp; 
         <asp:Label runat="server" Text="检修日期："></asp:Label>
-        <asp:TextBox runat="server" ID="txtJxrq" type="date"></asp:TextBox> 
+        <asp:TextBox runat="server" ID="txtXkrq" type="date"></asp:TextBox> 
         &nbsp;&nbsp; <asp:Button runat="server" Text="查询" ID="btnQuery" OnClick="btnQuery_Click"  />
         </td></tr>
 </table>
@@ -20,9 +20,9 @@
                         <Columns>
                             <asp:BoundField DataField="Id" HeaderText="编码" ReadOnly="True" />
                             <asp:BoundField DataField="Name" HeaderText="电梯" ReadOnly="True"/>
-                            <asp:BoundField DataField="Jxnr" HeaderText="检修内容"/>
-                            <asp:BoundField DataField="Jxrq" HeaderText="检修日期" />
-                            <asp:BoundField DataField="Jxr" HeaderText="检修人" />
+                            <asp:BoundField DataField="kcms" HeaderText="检修内容"/>
+                            <asp:BoundField DataField="xkrq" HeaderText="检修日期" />
+                            <asp:BoundField DataField="xkxs" HeaderText="检修人" />
                             <asp:CommandField HeaderText="编辑" ShowEditButton="True" />
                             <asp:CommandField HeaderText="删除" ShowDeleteButton="True" />
                         </Columns>

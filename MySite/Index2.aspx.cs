@@ -48,12 +48,12 @@ namespace MySite
 
         public void bind()
         {
-            DateTime? dJxrq = null;
-            if (!string.IsNullOrEmpty(txtJxrq.Text))
+            DateTime? dXkrq = null;
+            if (!string.IsNullOrEmpty(txtXkrq.Text))
             {
-                dJxrq = DateTime.Parse(txtJxrq.Text);
+                dXkrq = DateTime.Parse(txtXkrq.Text);
             }
-            DataSet myds = sHelp.GetSafe("",txtName.Text, dJxrq);
+            DataSet myds = sHelp.GetSafe("",txtName.Text, dXkrq);
             GridView1.DataSource = myds;
             GridView1.DataKeyNames = new string[] { "Id" };
             GridView1.DataBind();

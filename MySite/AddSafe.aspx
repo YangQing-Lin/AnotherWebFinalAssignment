@@ -21,7 +21,7 @@
             <td align="left">
                 <asp:TextBox runat="server" ID="txtKcms"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"
-                    ControlToValidate="txtJxnr" Display="Dynamic" ErrorMessage="检修内容不能为空"></asp:RequiredFieldValidator>
+                    ControlToValidate="txtkcms" Display="Dynamic" ErrorMessage="检修内容不能为空"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
@@ -31,7 +31,7 @@
             <td align="left">
                 <asp:TextBox runat="server" ID="txtXkrq" type="date"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server"
-                    ControlToValidate="txtJxrq" Display="Dynamic" ErrorMessage="检修日期不能为空"></asp:RequiredFieldValidator>
+                    ControlToValidate="txtxkrq" Display="Dynamic" ErrorMessage="检修日期不能为空"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
@@ -41,7 +41,7 @@
             <td align="left">
                 <asp:TextBox runat="server" ID="txtXkxs"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server"
-                    ControlToValidate="txtJxr" Display="Dynamic" ErrorMessage="检修人不能为空"></asp:RequiredFieldValidator>
+                    ControlToValidate="txtxkxs" Display="Dynamic" ErrorMessage="检修人不能为空"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
