@@ -22,7 +22,7 @@ id int identity(1,1) not null primary key, --主键
 name nvarchar(100) not null,--课程名称
 kcms nvarchar(500) not null,--课程描述
 xkrq DATETIME not null,--选课日期
-xkxs NVARCHAR(20) not null  --选课学生
+xkxs nvarchar(20) not null  --选课学生
 )
 go
 

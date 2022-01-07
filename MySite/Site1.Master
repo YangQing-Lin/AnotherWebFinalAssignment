@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>温州理工学院学生选课及成绩管理信息系统</title>
+    <title>温州理工学院学生选课管理信息系统</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
@@ -31,7 +31,7 @@
                                         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                                     </td>
                                     <td class="ClassTitle">
-                                        <asp:Label runat="server" Text="欢迎进入温州理工学院学生选课及成绩管理信息系统"></asp:Label>
+                                        <asp:Label runat="server" Text="欢迎进入温州理工学院学生选课管理信息系统"></asp:Label>
                                         |
                                         <asp:Label ID="lbId" runat="server" Text="Label"></asp:Label>
                                     </td>
@@ -51,7 +51,7 @@
                                     <td><a href="AddUser.aspx">添加用户</a></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="Index2.aspx">学生选课及成绩查询</a></td>
+                                    <td><a href="Index2.aspx">学生选课查询</a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="AddSafe.aspx">添加选课信息</a></td>
