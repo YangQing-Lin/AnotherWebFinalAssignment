@@ -6,42 +6,42 @@
     <table border="0" width="100%">
         <tr>
             <td width="20px">
-                <asp:Label runat="server" Text="电梯："></asp:Label>
+                <asp:Label runat="server" Text="课程："></asp:Label>
             </td>
             <td align="left">
                 <asp:TextBox runat="server" ID="txtName"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server"
-                    ControlToValidate="txtName" Display="Dynamic" ErrorMessage="电梯不能为空"></asp:RequiredFieldValidator>
+                    ControlToValidate="txtName" Display="Dynamic" ErrorMessage="课程名不能为空"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
             <td width="20px">
-                <asp:Label runat="server" Text="检修内容："></asp:Label>
+                <asp:Label runat="server" Text="课程描述："></asp:Label>
             </td>
             <td align="left">
                 <asp:TextBox runat="server" ID="txtKcms"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"
-                    ControlToValidate="txtkcms" Display="Dynamic" ErrorMessage="检修内容不能为空"></asp:RequiredFieldValidator>
+                    ControlToValidate="txtkcms" Display="Dynamic" ErrorMessage="课程描述不能为空"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
             <td width="20px">
-                <asp:Label runat="server" Text="检修日期："></asp:Label>
+                <asp:Label runat="server" Text="选课日期："></asp:Label>
             </td>
             <td align="left">
                 <asp:TextBox runat="server" ID="txtXkrq" type="date"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server"
-                    ControlToValidate="txtxkrq" Display="Dynamic" ErrorMessage="检修日期不能为空"></asp:RequiredFieldValidator>
+                    ControlToValidate="txtxkrq" Display="Dynamic" ErrorMessage="选课日期不能为空"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
             <td width="20px">
-                <asp:Label runat="server" Text="检修人："></asp:Label>
+                <asp:Label runat="server" Text="选课学生："></asp:Label>
             </td>
             <td align="left">
                 <asp:TextBox runat="server" ID="txtXkxs"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server"
-                    ControlToValidate="txtxkxs" Display="Dynamic" ErrorMessage="检修人不能为空"></asp:RequiredFieldValidator>
+                    ControlToValidate="txtxkxs" Display="Dynamic" ErrorMessage="选课学生不能为空"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
