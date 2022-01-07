@@ -48,13 +48,13 @@
                                     <td><a href="Index.aspx">信息系统用户管理</a></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="AddUser.aspx">添加信息系统用户</a></td>
+                                    <td><a href="AddUser.aspx">添加用户</a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="Index2.aspx">学生选课及成绩查询</a></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="AddSafe.aspx">添加学生选课及成绩信息</a></td>
+                                    <td><a href="AddSafe.aspx">添加选课信息</a></td>
                                 </tr>
                             </table>
                         </td>

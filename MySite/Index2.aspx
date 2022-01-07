@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-<table border="0" bgcolor="#FFFFFF" width="100%"  cellspacing="0" cellpadding="0">    
+    <table border="0" bgcolor="#FFFFFF" width="100%"  cellspacing="0" cellpadding="0">    
     <tr><td>
         <asp:Label runat="server" Text="名称："></asp:Label>
         <asp:TextBox runat="server" ID="txtName" ></asp:TextBox> &nbsp; 

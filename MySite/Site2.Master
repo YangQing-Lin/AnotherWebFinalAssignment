@@ -8,8 +8,8 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
-        .auto-style1 {
-            height: 90px;
+        .auto-style2 {
+            width: 217px;
         }
     </style>
 </head>
@@ -27,7 +27,7 @@
                         <td>
                             <table border="0" width="100%" cellspacing="0" cellpadding="0" background="images/02.gif">
                                 <tr>
-                                    <td height="40" width="180" align="center">
+                                    <td height="40" align="center" class="auto-style2">
                                         <asp:Label ID="Label1" runat="server" Text="用户注册"></asp:Label>
                                     </td>
                                     <td class="ClassTitle">
