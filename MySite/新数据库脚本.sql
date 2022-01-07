@@ -18,7 +18,7 @@ go
 --学生选课表
 create table CourseInfo
 (
-id int not null primary key, --主键
+id int identity(1,1) not null primary key, --主键
 name nvarchar(100) not null,--课程名称
 kcms nvarchar(500) not null,--课程描述
 xkrq DATETIME not null,--选课日期
@@ -26,6 +26,6 @@ xkxs NVARCHAR(20) not null  --选课学生
 )
 go
 
-insert into courseInfo values(1, 'Web网页开发', '学习如何制作网页', '2021-12-18 00:00:00.000', '林晴川')
+insert into courseInfo values('Web网页开发', '学习如何制作网页', '2021-12-18 00:00:00.000', '林晴川')
 go
 

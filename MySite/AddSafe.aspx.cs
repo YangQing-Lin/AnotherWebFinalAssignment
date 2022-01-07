@@ -27,7 +27,7 @@ namespace MySite
                     DataSet ds = help.GetSafe(id,"",null);
                     if (ds != null && ds.Tables != null && ds.Tables.Count > 0)
                     {
-                        txtId.Text = ds.Tables[0].Rows[0]["id"].ToString();
+                        txtId.Text = ds.Tables[0].Rows[0]["Id"].ToString();
                         txtName.Text = ds.Tables[0].Rows[0]["name"].ToString();
                         txtKcms.Text = ds.Tables[0].Rows[0]["kcms"].ToString();
                         txtXkxs.Text = ds.Tables[0].Rows[0]["xkxs"].ToString();
